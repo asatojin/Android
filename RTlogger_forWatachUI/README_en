@@ -1,0 +1,6 @@
+Functions:
+- Communicating with the JINS MEME beta via Bluetooth LE
+- Getting Realtime Mode data
+
+System Requirements:
+- Android 4.4+(API Level.19+) supported

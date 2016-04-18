@@ -1,0 +1,6 @@
+仕様
+・JINS MEME βとBluetooth LEで通信
+・リアルタイムモードのデータ取得が可能
+
+推奨環境
+・Android 4.4(API Level.19) 以降で動作を確認

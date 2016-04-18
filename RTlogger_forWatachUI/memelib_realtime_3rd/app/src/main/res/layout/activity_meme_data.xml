@@ -1,0 +1,71 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/container"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              tools:context="com.jins_jp.memelib_standard.MemeDataActivity"
+    android:weightSum="1">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Start"
+            android:id="@+id/btnStart"
+            android:layout_weight="0.04"
+            android:clickable="true"
+            android:enabled="true"
+            android:layout_gravity="left" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Stop"
+            android:id="@+id/btnStop"
+            android:layout_weight="0.04"
+            android:clickable="true"
+            android:enabled="true"
+            android:layout_gravity="right" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/data_item_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:textAlignment="gravity"
+        android:layout_gravity="top|center_horizontal">
+    </ListView>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Marking"
+            android:id="@+id/btnMarking"
+            android:layout_weight="0.04"
+            android:enabled="true"
+            android:clickable="true"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Disconnect"
+            android:id="@+id/btnDiscon"
+            android:layout_weight="0.04"
+            android:clickable="true"
+            android:enabled="true"
+            android:layout_gravity="right" />
+    </LinearLayout>
+
+</LinearLayout>
